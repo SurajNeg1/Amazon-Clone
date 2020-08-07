@@ -1,18 +1,5 @@
 export const initalState={
-    basket:[
-    { id:"12345",
-        title:"The Intelligent Investor",
-        price:10.00,
-        rating:5,
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9guo0gZ9ji-Ng8lVadpdzCXJ6fn-x_7onJg&usqp=CAU"
-    },
-    { id:"12345",
-    title:"The Intelligent Investor",
-    price:10.00,
-    rating:5,
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9guo0gZ9ji-Ng8lVadpdzCXJ6fn-x_7onJg&usqp=CAU"
-    },
-    ],
+    basket:[],
     user:null,
 };
 export const getBasketTotal=(basket)=>
@@ -21,6 +8,11 @@ basket?.reduce((amount,item)=>item.price +amount,0);
 function reducer(state, action){
     console.log(action);
     switch(action.type){
+        case "SET_USER":
+            return{
+                ...state,
+                user:action.user,
+            }
         case 'Add_To_BASKET':
             //Logic for adding item
             return {
