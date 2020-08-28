@@ -16,4 +16,6 @@
 .checkout__ad{
     width:100%;
     margin-bottom: 10px;
+    background-color:#00aaff;
+    mask-image: linear-gradient(to bottom, rgba(166, 166, 166,1), rgba(166, 166, 166,0.5));
 }

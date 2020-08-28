@@ -18,8 +18,8 @@ function Header() {
         <nav className="header">
             <Link to="/">
             <img className="header__logo"
-                   src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" 
-                   alt="amazonLogo" />
+                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTL3wIiwQ4HDnIX2wEdhara8u9mqQNkF9b3w&usqp=CAU" 
+                   alt="Logo" />
             </Link>
             <div className="header__search">
                 <input type="text" className="header__searchInput"/>
@@ -43,7 +43,7 @@ function Header() {
                 <Link to="/" className="header__link">
                     <div className="header__option">
                         <span className="header__optionLineOne">Your</span>
-                        <span className="header__optionLineTwo">Prime</span>
+                        <span className="header__optionLineTwo">Subscription</span>
                     </div>
                 </Link>
                 

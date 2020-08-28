@@ -7,10 +7,10 @@
  z-index: 100;
 }
 .header__logo{
-    width: 100px;
+    width: 50px;
     object-fit: contain;
-    margin: 0 20px;
-    margin-top:18px;
+    margin: 0 15px;
+    margin-top:15px;
 }
 .header__optionBasket{
     display: flex;
